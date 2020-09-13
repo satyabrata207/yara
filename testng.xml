@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="yara test suite">
+	<listeners>
+		<listener class-name="com.yara.utils.ListenUtility" />
+	</listeners>
+	<test thread-count="1" name="Leaves Sampling Test">
+		<classes>
+			<class name="com.yara.tests.LeavesSamplingTest" />
+		</classes>
+	</test>
+</suite>
